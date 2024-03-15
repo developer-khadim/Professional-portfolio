@@ -306,6 +306,9 @@ body.dark #moon{
  animation-play-state: paused;
 }
 
+.multiText{
+    color: orange;
+}
 /* ===== Hero Text ===== */
 .hero_box{
  display: flex;
