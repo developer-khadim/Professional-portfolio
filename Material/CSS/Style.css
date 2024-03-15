@@ -362,7 +362,7 @@ body.dark #moon{
 .col-2{
 position: relative;
  width: 1000px;
- height: 1000px;
+ height: 90vh;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -582,3 +582,7 @@ position: relative;
      display: none;
  }
 }
+
+
+/* ===== Hire Me Page===== */
+
