@@ -424,7 +424,7 @@ body.dark #moon {
 .col-2 {
     position: relative;
     width: 1000px;
-    height: 90vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -485,6 +485,10 @@ body.dark #moon {
 .clients i,
 .experience i {
     font-size: 20px;
+}
+
+.circle img{
+    width: 600px;
 }
 
 /* ===== Responsive - Media Query: 1084px ===== */
@@ -553,7 +557,7 @@ body.dark #moon {
     }
 
     .hero-image img {
-        right: 100px;
+        right: 150px;
         width: 290px;
     }
 
@@ -562,7 +566,7 @@ body.dark #moon {
     }
 
     .circle img {
-        width: 400px;
+        width: 500px;
     }
 
     @keyframes circleZoom {
@@ -600,7 +604,7 @@ body.dark #moon {
     .col-2 {
         position: relative;
         width: 100%;
-        height: 700px;
+        height: 500px;
 
     }
 
@@ -682,3 +686,54 @@ body.dark #moon {
 
 
 /* ===== Hire Me Page===== */
+
+
+.section-on-footer {
+    margin-bottom: -250px;
+  }
+  
+  .shadow-down {
+    position: relative;
+  }
+  .shadow-down::before {
+    position: absolute;
+    content: "";
+    box-shadow: 0px 0px 80.75px 14.25px rgba(224, 241, 255, 0.34);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+  
+  /* /footer */
+  .card-lg {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  @media (max-width: 991px) {
+    .card-lg {
+      flex-direction: column;
+    }
+  }
+  
+  blockquote {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #eaeaea;
+    border-left: 2px solid #41228e;
+    font-style: italic;
+    font-size: 22px;
+  }
+  
+  .content * {
+    margin-bottom: 20px;
+  }
+  .content strong {
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: #000;
+    display: inherit;
+    line-height: 1.5;
+  }
