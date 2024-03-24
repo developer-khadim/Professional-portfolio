@@ -9,6 +9,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 a{
     text-decoration: none; 
 }
@@ -28,7 +29,7 @@ body {
     width: 100%;
     height: 100%;
     min-height: 100dvh;
-    overflow: hidden;
+
 }
 
 body.dark {
@@ -685,55 +686,17 @@ body.dark #moon {
 }
 
 
+
+.footer-btns{
+    color: black;
+
+}
+.footer-btns:hover{
+    color: white;
+}
+.footer-sec{
+    color: var(--white_color);
+
+
+}
 /* ===== Hire Me Page===== */
-
-
-.section-on-footer {
-    margin-bottom: -250px;
-  }
-  
-  .shadow-down {
-    position: relative;
-  }
-  .shadow-down::before {
-    position: absolute;
-    content: "";
-    box-shadow: 0px 0px 80.75px 14.25px rgba(224, 241, 255, 0.34);
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    z-index: -1;
-  }
-  
-  /* /footer */
-  .card-lg {
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-  @media (max-width: 991px) {
-    .card-lg {
-      flex-direction: column;
-    }
-  }
-  
-  blockquote {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #eaeaea;
-    border-left: 2px solid #41228e;
-    font-style: italic;
-    font-size: 22px;
-  }
-  
-  .content * {
-    margin-bottom: 20px;
-  }
-  .content strong {
-    font-family: "Playfair Display", serif;
-    font-size: 22px;
-    font-weight: normal;
-    color: #000;
-    display: inherit;
-    line-height: 1.5;
-  }
